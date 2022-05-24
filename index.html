@@ -4,34 +4,85 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CorazonDeAguacate</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <header id="header">
-        <div class="header_banner">
-            <img src="./imágenes/logotipo.jpeg" alt="logo">
-        </div>
-        <h1>Corazón de Aguacate</h1>
-    
-        <nav class="header_menu">
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="./paginas/mujer.html">Mujer</a></li>
-                <li><a href="./paginas/ninos.html">Niños</a></li>
-                <li><a href="./paginas/accesorios.html">Accesorios</a></li>
-                <li><a href="./paginas/contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+    <title>Home</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <!-- SEO -->
+    <meta name="description" content="Tienda Corazon De Aguacate">
+    <meta name="keywords" content="Tienda, México, Guanajuato, León, zapatos">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 
-    <main>   
-        <br>
-        <div class="box"> 
-            <h1>¿Quiénes somos?</h1>
-                <p>Distribuidores de calzados y accesorios, elaborados en León, Guanajuato. Hacemos entregas personales en León y Ciudad de México. Envíos a toda la República mexicana</p>
-            <img src="./imágenes/aguacate.jpeg" alt="aguacate" width="500">
+</head>
+<body id="body-index">
+    <header>
+        <div class="headerIndex">
+            <img src="./imágenes/logotipo.jpeg" alt="Logo">
+            <h1>
+                <p class="animate__animated animate__rubberBand">Corazón de Aguacate</p>
+            </h1>
         </div>
+        
+      <nav class="menu">
+        <ul class="nav nav-pills nav-fill">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./paginas/mujer.html">Mujer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./paginas/ninos.html">Niños</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./paginas/accesorios.html">Accesorios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./paginas/contacto.html">Contacto</a>
+            </li>
+          </ul>
+      </nav> 
+    </header>
+   
+<hr>
+<div class="News">
+    <p>¡NOVEDADES!</p>
+
+</div>
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="./imágenes/new.jpeg" alt="N1">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="./imágenes/new1.jpeg" alt="N2">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="./imágenes/new2.jpeg" alt="N3">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="./imágenes/promo.jpeg" alt="N4">
+      </div>
+    </div>
+  </div>
+    <main> 
+        <div class="indexContent">
+        <h1>
+            Sobre nosotros
+        </h1> 
+        <hr>
+          
+          <p>Somos distribuidres de calzado y accesorios fabricados en la ciudad de León, Guanajuato. Contamos con venta mayorista para emprendedores y también minorista para aquellos que solo buscan adquirir zapatos y/o accesorios de buena calidad y fabricados en México. Contamos con entregas directas en León y Ciudad de México, así como envíos a cualquier parte de la República</p>
+          <h2>¿Te interesa emprender un negocio de venta de zapatos, bolsas y otros accesorios?</h3>
+          <p>Si te interesa adquirir cualquiera de nuestros productos, te invitamos a revisar las galerías en esta página y a dejar tus datos en la sección Contacto, para que podamos ponernos en comunicación contigo</p>
+            
+        </div> 
+       
         <div class="box"> 
             <h1>Modelo de Negocio</h1>
                 <p>Contamos con dos modalidades: mayoreo y menudeo.</p>
@@ -41,38 +92,6 @@
                 <p>En esta modalidad no es necesario un número mínimo de piezas a comprar, está dirigido para clientes directos. Se hace el envío de mercancia de acuerdo a la ubicación del comprador.</p>
             
         </div>            
-<br>
-<br>
-<hr>
-    <img src="./imágenes/promo.jpeg" alt="promo" width="500">
-    <hr>
-        <table border="1" cellpadding="7" cellspacing="7" class="tabla">
-            <tr>
-                <th>Métodos de pago</th>
-                <th>Categorías</th>
-            </tr>
-            <tr>
-                <td>
-                    <ol>
-                        <li>Trasferencia electrónica</li>
-                        <li>Efectivo a contra entrega</li>
-                        <li>Tarjeta bancaria</li>
-                    </ol>
-                </td>
-                <td>
-                    <ol>
-                        <li>Calzado casual</li>
-                        <li>Calzado formal</li>
-                        <li>Bolsas</li>
-                        <li>Carteras</li>
-                        <li>Mujer</li>
-                        <li>Niños</li>
-                    </ol>
-                </td>
-               
-            </tr>
-
-        </table>
     </main>
     
     <footer class="footIndex">
@@ -85,5 +104,10 @@
                 <img src="./imágenes/ig.jpeg" alt="ig" width="50">
             </a>
     </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
